@@ -1,0 +1,358 @@
+@import './bootstrap/bootstrap';
+@import './theme/base';
+@import './theme/main';
+@import './theme/fontello';
+
+#formID {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#formID input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#formID input.btn {
+  background: #000;
+}
+
+.login-image {
+  width: 100%;
+  max-width: 350px;
+}
+
+.project-content h1 {
+  font-weight: 700;
+  display: inline-block;
+  position: relative;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.project-content h5 {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.project-content p {
+  margin-bottom: 2rem;
+}
+
+.project-content p em {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.project-content h1:before {
+  background: #ffd42d;
+  content: "";
+  height: 8px;
+  left: 50%;
+  position: absolute;
+  top: -20px;
+  width: 20px;
+  transform: translate3d(-50%,0,0);
+  -webkit-transform: translate3d(-50%,0,0);
+  -ms-transform: translate3d(-50%,0,0);
+  -ms-transform: translate(-50%,0);
+  -o-transform: translate(-50%,0);
+}
+
+.project-content h5 {
+    font-size: 1.3rem;
+}
+
+.project-content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 550px;
+}
+
+.project-content table {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.project-content table > tbody > tr > th,
+.project-content table > tfoot > tr > th,
+.project-content table > thead > tr > td,
+.project-content table > tbody > tr > td,
+.project-content table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  font-size: 1.5rem;
+  font-weight: 400;
+  vertical-align: top;
+  text-align: left;
+  border-top: 1px solid #ddd;
+}
+
+.project-content table > thead > tr > th {
+  vertical-align: bottom;
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  background: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.project-content table tbody tr {
+  background: rgb(236, 234, 234);
+  color: rgb(62, 62, 62);
+}
+
+.project-content table tbody tr:last-child {
+  background: #ffd42d;
+  color: #fff;
+  max-width: 50%;
+}
+
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+
+.project-content table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+
+.slider-container {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  height: auto;
+}
+
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.slick-next{
+  right: 12px;
+}
+
+.slick-prev {
+  left: 12px;
+}
+
+
+.slick-next,.slick-prev{
+  position:absolute;
+  display: none;
+  padding:0
+}
+
+.slick-next:before, .slick-prev:before {
+  font-size: 25px;
+}
+
+.slick-next,.slick-prev{
+  top: 45%;
+  width:25px;
+  height:25px;
+  -webkit-transform:translate(0,-50%);
+  -ms-transform:translate(0,-50%);
+  transform:translate(0,-50%);
+  cursor:pointer;
+  color: #000;
+  border:none;
+  z-index: 29;
+  outline:0;
+  font-size: 25px;
+}
+
+@media (min-width: 1200px) {
+  .slick-next,.slick-prev { 
+    width:60px;
+    height:60px;
+    font-size: 50px;
+  }
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -50px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li, .slick-dots li button {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    padding: 5px;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #000;
+}
+
+.slick-dots li button:before {
+    font-family: slick;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: "\2022";
+    text-align: center;
+    opacity: .25;
+    color: #000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
