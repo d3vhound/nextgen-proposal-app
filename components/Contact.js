@@ -1,3 +1,6 @@
+import React from 'react'
+import MapComponent from './Map'
+
 export default (props) => (
   <div className="contact">
     <div className="content">
@@ -22,9 +25,12 @@ export default (props) => (
         </div>
         <div className="row">
           <div className="col-md-12">
-            
-              <iframe src="https://snazzymaps.com/embed/79159" width="100%" height="300px"></iframe>
-            
+              <div style={{height: `100%`}} id="map"></div>
+              <MapComponent 
+                isMarkerShown
+              />
+
+              {/* <iframe src="https://snazzymaps.com/embed/79159" width="100%" height="300px"></iframe> */}
           </div>
         </div>
       </div>

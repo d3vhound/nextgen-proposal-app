@@ -48,7 +48,7 @@
 }
 
 .project-content h1:before {
-  background: #ffd42d;
+  background: #3f3f3f;
   content: "";
   height: 8px;
   left: 50%;
@@ -107,13 +107,13 @@
 }
 
 .project-content table tbody tr {
-  background: rgb(236, 234, 234);
+  background: #fff;
   color: rgb(62, 62, 62);
 }
 
 .project-content table tbody tr:last-child {
-  background: #ffd42d;
-  color: #fff;
+  background: #efefef;
+  color: rgb(62, 62, 62);
   max-width: 50%;
 }
 
