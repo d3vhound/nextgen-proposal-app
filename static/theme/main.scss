@@ -1107,6 +1107,7 @@
 .content{
 	padding:100px;
 	position:relative;
+	box-shadow: 0px 10px 40px rgba(0,0,0,.4);
 }
 
 
@@ -2612,7 +2613,7 @@ ul.hb-list li h6 {
 	.listing,.listing-large, .timeline{padding:0;margin-top:0 !important;}
 	.listing:after, .listing-inner:before, .listing-inner:after, .timeline:after, .timeline .timeline-inner .name:before, .listing-large-inner:before,
   .listing-large-inner:after, .listing-large:after, .services:before, .services:after, .filter li:not(:last-child):after, .main-nav ul li:first-child:after{content:none;}
-  
+
   .listing .listing-event .data.left {
     width:auto;
     margin:0;
@@ -2626,7 +2627,7 @@ ul.hb-list li h6 {
     padding: 0;
     text-align: right;
   }
-  
+
 	.insta-Feed li, .insta-Feed li a{width:45%;margin:0;}
 	.insta-Feed li:last-child{display:none;}
 	.timeline .timeline-inner .name{margin-bottom:5px !important;}
