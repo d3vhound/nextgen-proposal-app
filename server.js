@@ -3,7 +3,8 @@ const next = require('next')
 const bodyParser = require('body-parser')
 
 const prod = process.env.NODE_ENV === 'production'
-const app = next({ prod })
+const dev = process.env.NODE_ENV !== 'production'
+const app = next({ dev })
 const handle = app.getRequestHandler()
 
 app.prepare()

@@ -13,20 +13,20 @@ export default (props) => (
       </div>
 
       <div className="block-content mb-100">
-        {/* <div className="row">
+        <div className="row">
           <div className="col-md-12">
             <div class="sub-title mb-40">
               <h2 class="uppercase">map location</h2>
             </div>
           </div>
-        </div> */}
-        {/* <div className="row">
+        </div>
+        <div className="row">
           <div className="col-md-12">
-            <div>
+            
               <iframe src="https://snazzymaps.com/embed/79159" width="100%" height="300px"></iframe>
-            </div>
+            
           </div>
-        </div> */}
+        </div>
       </div>
 
       <div class="block-content mb-100 ">
@@ -65,7 +65,7 @@ export default (props) => (
                       <i class="icon-mobile-6"></i>
                     </div>
                     <h5 class="mb-20">Give us a call</h5>
-                    <p>Office : (214) 585-2164</p>
+                    <p>Office : <a href="tel:2145852164">(214) 585-2164</a></p>
                   </div>
                 </div>
 
